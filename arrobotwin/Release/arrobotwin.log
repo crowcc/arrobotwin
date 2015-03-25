@@ -1,0 +1,48 @@
+﻿生成启动时间为 2015/03/25 17:39:42。
+     1>项目“C:\work\source\arrobotwin\arrobotwin\arrobotwin.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(277): warning C4553: “==”: 运算符不起任何作用；是否是有意使用“=”的?
+     1>main.cpp(205): warning C4101: “key”: 未引用的局部变量
+     1>main.cpp(205): warning C4101: “key_old”: 未引用的局部变量
+     1>main.cpp(211): warning C4101: “sonar”: 未引用的局部变量
+     1>main.cpp(209): warning C4101: “num_sonar”: 未引用的局部变量
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\work\source\arrobotwin\Release\arrobotwin.exe" /INCREMENTAL:NO /NOLOGO ipc.lib AriaVC12.lib Wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\work\source\arrobotwin\Release\arrobotwin.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\work\source\arrobotwin\Release\arrobotwin.lib" /MACHINE:X86 /SAFESEH:NO Release\main.obj
+         正在生成代码
+         已完成代码的生成
+     1>ipc.lib(behaviors.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(behaviors.obj)”或在“C:\work\source\arrobotwin\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(com.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(com.obj)”或在“C:\work\source\arrobotwin\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(comModule.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(comModule.obj)”或在“C:\work\source\arrobotwin\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(datamsg.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(datamsg.obj)”或在“C:\work\source\arrobotwin\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(formatters.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(formatters.obj)”或在“C:\work\source\arrobotwin\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(globalM.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(globalM.obj)”或在“C:\work\source\arrobotwin\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(globalMUtil.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(globalMUtil.obj)”或在“C:\work\source\arrobotwin\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(hash.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(hash.obj)”或在“C:\work\source\arrobotwin\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(idtable.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(idtable.obj)”或在“C:\work\source\arrobotwin\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(ipc.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(ipc.obj)”或在“C:\work\source\arrobotwin\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(key.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(key.obj)”或在“C:\work\source\arrobotwin\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(lex.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(lex.obj)”或在“C:\work\source\arrobotwin\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(list.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(list.obj)”或在“C:\work\source\arrobotwin\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(marshall.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(marshall.obj)”或在“C:\work\source\arrobotwin\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(modVar.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(modVar.obj)”或在“C:\work\source\arrobotwin\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(parseFmttrs.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(parseFmttrs.obj)”或在“C:\work\source\arrobotwin\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(primFmttrs.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(primFmttrs.obj)”或在“C:\work\source\arrobotwin\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(printData.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(printData.obj)”或在“C:\work\source\arrobotwin\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(queryResponse.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(queryResponse.obj)”或在“C:\work\source\arrobotwin\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(reg.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(reg.obj)”或在“C:\work\source\arrobotwin\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(resMod.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(resMod.obj)”或在“C:\work\source\arrobotwin\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(sendMsg.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(sendMsg.obj)”或在“C:\work\source\arrobotwin\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(strList.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(strList.obj)”或在“C:\work\source\arrobotwin\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(tcaMem.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(tcaMem.obj)”或在“C:\work\source\arrobotwin\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(tcaRef.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(tcaRef.obj)”或在“C:\work\source\arrobotwin\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(tcModError.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(tcModError.obj)”或在“C:\work\source\arrobotwin\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(timer.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(timer.obj)”或在“C:\work\source\arrobotwin\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>ipc.lib(wsocksrt.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“ipc.lib(wsocksrt.obj)”或在“C:\work\source\arrobotwin\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         arrobotwin.vcxproj -> C:\work\source\arrobotwin\Release\arrobotwin.exe
+     1>已完成生成项目“C:\work\source\arrobotwin\arrobotwin\arrobotwin.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.78
