@@ -1,3 +1,6 @@
+#pragma pack(push,1)
+
+
 //typedef struct{
 //	double obs_x[683];
 //	double obs_y[683];
@@ -18,7 +21,7 @@ typedef struct{
 typedef struct{
 	float theta;
 	float dist;
-	//double w_y;
-	//int    needTurn;//true:1 false:0
-	//int    needMov;//true:1 false:0
+	int exitRobot;
 }roboControl;
+
+#pragma pack(pop)
